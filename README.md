@@ -14,7 +14,7 @@ Then browse to [http://localhost:3000/](http://localhost:3000/). in.c only works
 
 ## Licensing
 
-The source code to in.c has been made available for educational use only. That being said, we intend to extract several components of the javascript code developed for in.c into separate libraries that will be made available under an open source license. Stay tuned!
+The source code to in.c has been made available under the [Creative Commons Attribution-Share Alike 3.0 license](http://creativecommons.org/licenses/by-sa/3.0/). Several components (particularly the musical notation parsing and temperment calculations) will be extracted out into separate libraries under their own licenses in the future. Stay tuned!
 
 ## Acknowledgements
 
