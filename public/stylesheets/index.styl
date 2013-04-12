@@ -1,0 +1,330 @@
+@import 'mixins/fonts'
+
+//wimpy reset
+ul 
+    margin 0
+    padding 0
+    list-style none
+li 
+    margin 0 
+    padding 0 
+
+
+//colors
+square = #A7AE61
+sine = #7A9FA2
+triangle = #D8563F
+info = #111
+
+html
+    height 100%
+body
+    background #111
+    color #111
+    padding 0 
+    margin 0
+    position relative
+    height 100%
+    font-family 'OstrichSansMedium'
+    overflow hidden
+    
+body *
+    -webkit-user-select: none;
+
+.grid
+    margin 0
+    padding 0
+    position absolute
+    list-style none
+    top 0
+    bottom 0
+    left -1px
+    right 0
+    display block
+
+    .col
+        position absolute
+        padding 0
+        bottom 0
+        top 0
+        width 25%
+        border-left 1px solid #111
+        // make these into a mixin
+        &.square
+            background square
+            .title, .dial, .vol-slider
+                background darken(square, 15%)
+            .position
+                background darken(square, 5%) 
+            .controls, .volume,.value
+                background lighten(square, 5%) 
+            .vol-bar-mask
+                border-color lighten(square, 5%)  transparent  transparent transparent;
+             .mson
+                color darken(square, 15%)
+    
+        &.sine
+            background sine
+            left 50%
+            .title, .dial, .vol-slider
+                background darken(sine, 15%)
+            .position
+                background darken(sine, 5%)
+            .controls, .volume,.value
+                background lighten(sine, 5%)
+            .vol-bar-mask
+                border-color lighten(sine, 5%)  transparent  transparent transparent;
+             .mson
+                color darken(sine, 15%)
+      
+        &.triangle
+            background triangle
+            left 25%
+            .title, .dial, .vol-slider
+                background darken(triangle, 15%)
+            .position
+                background darken(triangle, 5%)
+            .controls, .volume, .value
+                background lighten(triangle, 5%)
+            .vol-bar-mask
+                border-color lighten(triangle, 5%)  transparent  transparent transparent;
+            .mson
+                color darken(triangle, 15%)
+            
+        &.info
+            background info
+            left 75%
+
+        &.end
+            .position
+                font-family 'FreebooterScriptRegular'
+                line-height 1.3em
+
+    .title
+        margin 0
+        padding 20px
+        font-size 3em
+        letter-spacing 0.2em
+        position relative
+        text-align center
+        
+    .position
+        font-size 6em
+        vertical-align baseline
+        text-align center
+        margin 0
+        padding 20px 0 0 0
+        font-family 'OstrichSansBold'
+        height 96px
+        cursor pointer
+    .visual-spacer
+        height 210px
+        position relative
+        p
+            padding 40px
+            font-family 'Helvetica Neue'
+            font-weight 200
+            text-align center
+
+
+
+.info
+    color #666       
+    .timer
+        font-size 4em
+        vertical-align baseline
+        text-align center
+        margin 0
+        padding 20px 0 0 0
+        font-family 'OstrichSansBold'
+        letter-spacing 0.1em
+        background #222
+        line-height 96px
+    .info-cards
+        color #ddd
+        width 100%
+        text-align center
+        margin 25px 0 0 0
+        li
+            margin 20px 0
+        .name
+            font-size 2em
+            margin 5px
+            letter-spacing 0.2em
+        .player-type
+            display inline-block
+            margin -10px 
+            padding 0
+            i
+                font-size 6em 
+                color #444
+                -webkit-transition color 1s ease-in
+                margin-top -10px
+                &.selected
+                    color #ddd
+                    -webkit-transition color 1s ease-in
+
+        .phrase
+            font-family 'Helvetica Neue'
+            font-weight 200
+            font-size 0.8em
+            height 1em
+            line-height 1em
+            opacity 0
+
+.volume 
+    height 90px
+    padding 10px
+    position relative
+    .vol-bar
+        top 20px
+        position absolute
+        width 0px
+        height 0px
+        left 50%
+        margin-left -100px
+        border-style solid;
+        border-width 0 0 40px 200px;
+        border-color transparent transparent #111 transparent;
+     .vol-bar-mask
+        top 20px
+        position absolute
+        width 0px
+        height 0px
+        left 50%
+        margin-left -100px
+        border-style solid 
+        z-index 4
+        border-width 40px 200px 0 0
+    .vol-slider
+        position absolute
+        left 50%
+        margin-left 0px
+        right 20px
+        width 100px
+        z-index 2
+        height 40px
+        top 20px
+    .vol-click
+        position absolute
+        left 50%
+        margin-left -100px
+        z-index 5
+        top 20px
+        height 40px
+        width 200px
+        background red
+        opacity 0
+        cursor pointer
+    .vol-value
+        position absolute
+        left 50%
+        margin-left 115px
+        line-height 40px
+        font-size 2em
+        top 30px
+    .vol-label
+        position absolute
+        right 0
+        left 0
+        text-align center
+        top 70px
+        font-size 1.3em
+        letter-spacing 0.1em
+
+.controls
+    margin 0
+    list-style none
+    padding 0 0 20px 0
+    .control
+        padding 0
+        margin 0
+        display inline-block 
+        width 33.33% 
+        .dial-label
+            text-align center
+            margin 10px 0 0 0
+            font-size 1.3em
+            letter-spacing 0.1em
+    .dial
+        height 50px
+        width 50px
+        position relative
+        cursor pointer
+        border-radius 50%
+        left 50%
+        margin 0 0 0 -25px
+
+        &.over
+            .fill
+                display block
+            .mask
+                display none   
+        .circle
+            height 100%
+            width 50%
+            position absolute
+            -webkit-transform-origin 100% 50%
+            background #111;
+        .display
+            border-radius 100% 0 0 100% / 50% 0 0 50%
+            z-index 200
+            -webkit-transform rotate(90deg)
+        .fill
+           border-radius 0 100% 100% 0 / 0 50% 50% 0; 
+           left 50%
+           z-index 100
+           display none
+        .mask
+            width 50%
+            height 100%
+            position absolute
+            background inherit
+            z-index 300
+            border-radius 100% 0 0 100% / 50% 0 0 50%
+
+        .value
+            position absolute
+            background inherit
+            width 30px
+            height 30px
+            z-index 400
+            top 50%
+            left 50%
+            line-height 30px
+            text-align center
+            border-radius 50%
+            margin-left -15px
+            margin-top -15px
+            font-size 1.5em
+
+.visual-canvas
+    z-index 2
+    top 200px
+    right 0
+    position absolute
+    height 210px
+    left 0
+
+.start-dialog
+    position absolute
+    height 380px
+    width 580px
+    top 50%
+    left 50%
+    margin-left -300px
+    margin-top -250px
+    background #eee
+    border 2px solid #111
+    z-index 1975
+    padding 40px
+    box-shadow -10px 10px 0 #111
+    .inst-header
+        font-size 4em
+        font-weight 400
+        margin-bottom 0.5em
+    .inst-body
+        font-family 'Helvetica Neue'
+        line-height 1.5em
+        font-weight 200
+

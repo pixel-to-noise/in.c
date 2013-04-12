@@ -1,0 +1,1159 @@
+@font-face {
+  font-family: 'Entypo';
+  src: url("../../fonts/Entypo/entypo.eot");
+  src: url("../../fonts/Entypo/entypo.eot?#iefix") format('embedded-opentype'), url("../../fonts/Entypo/entypo.woff") format('woff'), url("../../fonts/Entypo/entypo.ttf") format('truetype'), url("../../fonts/Entypo/entypo.svg#EntypoRegular") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'OstrichSansCondensedLight';
+  src: url("../../fonts/ostrich/ostrich-light-webfont.eot");
+  src: url("../../fonts/ostrich/ostrich-light-webfont.eot?#iefix") format('embedded-opentype'), url("../../fonts/ostrich/ostrich-light-webfont.woff") format('woff'), url("../../fonts/ostrich/ostrich-light-webfont.ttf") format('truetype'), url("../../fonts/ostrich/ostrich-light-webfont.svg#OstrichSansCondensedLight") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'OstrichSansMedium';
+  src: url("../../fonts/ostrich/ostrich-regular-webfont.eot");
+  src: url("../../fonts/ostrich/ostrich-regular-webfont.eot?#iefix") format('embedded-opentype'), url("../../fonts/ostrich/ostrich-regular-webfont.woff") format('woff'), url("../../fonts/ostrich/ostrich-regular-webfont.ttf") format('truetype'), url("../../fonts/ostrich/ostrich-regular-webfont.svg#OstrichSansMedium") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'OstrichSansBold';
+  src: url("../../fonts/ostrich/ostrich-bold-webfont.eot");
+  src: url("../../fonts/ostrich/ostrich-bold-webfont.eot?#iefix") format('embedded-opentype'), url("../../fonts/ostrich/ostrich-bold-webfont.woff") format('woff'), url("../../fonts/ostrich/ostrich-bold-webfont.ttf") format('truetype'), url("../../fonts/ostrich/ostrich-bold-webfont.svg#OstrichSansBold") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'OstrichSansBlack';
+  src: url("../../fonts/ostrich/ostrich-black-webfont.eot");
+  src: url("../../fonts/ostrich/ostrich-black-webfont.eot?#iefix") format('embedded-opentype'), url("../../fonts/ostrich/ostrich-black-webfont.woff") format('woff'), url("../../fonts/ostrich/ostrich-black-webfont.ttf") format('truetype'), url("../../fonts/ostrich/ostrich-black-webfont.svg#OstrichSansBlack") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'OstrichSansRoundedMedium';
+  src: url("../../fonts/ostrich/ostrich-rounded-webfont.eot");
+  src: url("../../fonts/ostrich/ostrich-rounded-webfont.eot?#iefix") format('embedded-opentype'), url("../../fonts/ostrich/ostrich-rounded-webfont.woff") format('woff'), url("../../fonts/ostrich/ostrich-rounded-webfont.ttf") format('truetype'), url("../../fonts/ostrich/ostrich-rounded-webfont.svg#OstrichSansRoundedMedium") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'OstrichSansDashedMedium';
+  src: url("../../fonts/ostrich/ostrich-dashed-webfont.eot");
+  src: url("../../fonts/ostrich/ostrich-dashed-webfont.eot?#iefix") format('embedded-opentype'), url("../../fonts/ostrich/ostrich-dashed-webfont.woff") format('woff'), url("../../fonts/ostrich/ostrich-dashed-webfont.ttf") format('truetype'), url("../../fonts/ostrich/ostrich-dashed-webfont.svg#OstrichSansDashedMedium") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'FreebooterScriptRegular';
+  src: url("../../fonts/Freebooter/freebooterscript-webfont.eot");
+  src: url("../../fonts/Freebooter/freebooterscript-webfont.eot?#iefix") format('embedded-opentype'), url("../../fonts/Freebooter/freebooterscript-webfont.woff") format('woff'), url("../../fonts/Freebooter/freebooterscript-webfont.ttf") format('truetype'), url("../../fonts/Freebooter/freebooterscript-webfont.svg#FreebooterScriptRegular") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'FreebooterScript-AltsRegular';
+  src: url("../../fonts/Freebooter/FREEBSCA-webfont.eot");
+  src: url("../../fonts/Freebooter/FREEBSCA-webfont.eot?#iefix") format('embedded-opentype'), url("../../fonts/Freebooter/FREEBSCA-webfont.woff") format('woff'), url("../../fonts/Freebooter/FREEBSCA-webfont.ttf") format('truetype'), url("../../fonts/Freebooter/FREEBSCA-webfont.svg#FreebooterScript-AltsRegular") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: 'entypo';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  text-align: center;
+  line-height: 1em;
+}
+.icon-phone:before {
+  content: '\1F4DE';
+}
+.icon-mobile:before {
+  content: '\1F4F1';
+}
+.icon-mouse:before {
+  content: '\E789';
+}
+.icon-address:before {
+  content: '\E723';
+}
+.icon-mail:before {
+  content: '\2709';
+}
+.icon-paper-plane:before {
+  content: '\1F53F';
+}
+.icon-pencil:before {
+  content: '\270E';
+}
+.icon-feather:before {
+  content: '\2712';
+}
+.icon-attach:before {
+  content: '\1F4CE';
+}
+.icon-inbox:before {
+  content: '\E777';
+}
+.icon-reply:before {
+  content: '\E712';
+}
+.icon-reply-all:before {
+  content: '\E713';
+}
+.icon-forward:before {
+  content: '\27A6';
+}
+.icon-user:before {
+  content: '\1F464';
+}
+.icon-users:before {
+  content: '\1F465';
+}
+.icon-add-user:before {
+  content: '\E700';
+}
+.icon-vcard:before {
+  content: '\E722';
+}
+.icon-export:before {
+  content: '\E715';
+}
+.icon-location:before {
+  content: '\E724';
+}
+.icon-map:before {
+  content: '\E727';
+}
+.icon-compass:before {
+  content: '\E728';
+}
+.icon-direction:before {
+  content: '\27A2';
+}
+.icon-hair-cross:before {
+  content: '\1F3AF';
+}
+.icon-share:before {
+  content: '\E73C';
+}
+.icon-shareable:before {
+  content: '\E73E';
+}
+.icon-heart:before {
+  content: '\2665';
+}
+.icon-heart-empty:before {
+  content: '\2661';
+}
+.icon-star:before {
+  content: '\2605';
+}
+.icon-star-empty:before {
+  content: '\2606';
+}
+.icon-thumbs-up:before {
+  content: '\1F44D';
+}
+.icon-thumbs-down:before {
+  content: '\1F44E';
+}
+.icon-chat:before {
+  content: '\E720';
+}
+.icon-comment:before {
+  content: '\E718';
+}
+.icon-quote:before {
+  content: '\275E';
+}
+.icon-home:before {
+  content: '\2302';
+}
+.icon-popup:before {
+  content: '\E74C';
+}
+.icon-search:before {
+  content: '\1F50D';
+}
+.icon-flashlight:before {
+  content: '\1F526';
+}
+.icon-print:before {
+  content: '\E716';
+}
+.icon-bell:before {
+  content: '\1F514';
+}
+.icon-link:before {
+  content: '\1F517';
+}
+.icon-flag:before {
+  content: '\2691';
+}
+.icon-cog:before {
+  content: '\2699';
+}
+.icon-tools:before {
+  content: '\2692';
+}
+.icon-trophy:before {
+  content: '\1F3C6';
+}
+.icon-tag:before {
+  content: '\E70C';
+}
+.icon-camera:before {
+  content: '\1F4F7';
+}
+.icon-megaphone:before {
+  content: '\1F4E3';
+}
+.icon-moon:before {
+  content: '\263D';
+}
+.icon-palette:before {
+  content: '\1F3A8';
+}
+.icon-leaf:before {
+  content: '\1F342';
+}
+.icon-note:before {
+  content: '\266A';
+}
+.icon-beamed-note:before {
+  content: '\266B';
+}
+.icon-new:before {
+  content: '\1F4A5';
+}
+.icon-graduation-cap:before {
+  content: '\1F393';
+}
+.icon-book:before {
+  content: '\1F4D5';
+}
+.icon-newspaper:before {
+  content: '\1F4F0';
+}
+.icon-bag:before {
+  content: '\1F45C';
+}
+.icon-airplane:before {
+  content: '\2708';
+}
+.icon-lifebuoy:before {
+  content: '\E788';
+}
+.icon-eye:before {
+  content: '\E70A';
+}
+.icon-clock:before {
+  content: '\1F554';
+}
+.icon-mic:before {
+  content: '\1F3A4';
+}
+.icon-calendar:before {
+  content: '\1F4C5';
+}
+.icon-flash:before {
+  content: '\26A1';
+}
+.icon-thunder-cloud:before {
+  content: '\26C8';
+}
+.icon-droplet:before {
+  content: '\1F4A7';
+}
+.icon-cd:before {
+  content: '\1F4BF';
+}
+.icon-briefcase:before {
+  content: '\1F4BC';
+}
+.icon-air:before {
+  content: '\1F4A8';
+}
+.icon-hourglass:before {
+  content: '\23F3';
+}
+.icon-gauge:before {
+  content: '\1F6C7';
+}
+.icon-language:before {
+  content: '\1F394';
+}
+.icon-network:before {
+  content: '\E776';
+}
+.icon-key:before {
+  content: '\1F511';
+}
+.icon-battery:before {
+  content: '\1F50B';
+}
+.icon-bucket:before {
+  content: '\1F4FE';
+}
+.icon-magnet:before {
+  content: '\E7A1';
+}
+.icon-drive:before {
+  content: '\1F4FD';
+}
+.icon-cup:before {
+  content: '\2615';
+}
+.icon-rocket:before {
+  content: '\1F680';
+}
+.icon-brush:before {
+  content: '\E79A';
+}
+.icon-suitcase:before {
+  content: '\1F6C6';
+}
+.icon-traffic-cone:before {
+  content: '\1F6C8';
+}
+.icon-globe:before {
+  content: '\1F30E';
+}
+.icon-keyboard:before {
+  content: '\2328';
+}
+.icon-browser:before {
+  content: '\E74E';
+}
+.icon-publish:before {
+  content: '\E74D';
+}
+.icon-progress-3:before {
+  content: '\E76B';
+}
+.icon-progress-2:before {
+  content: '\E76A';
+}
+.icon-progress-1:before {
+  content: '\E769';
+}
+.icon-progress-0:before {
+  content: '\E768';
+}
+.icon-light-down:before {
+  content: '\1F505';
+}
+.icon-light-up:before {
+  content: '\1F506';
+}
+.icon-adjust:before {
+  content: '\25D1';
+}
+.icon-code:before {
+  content: '\E714';
+}
+.icon-monitor:before {
+  content: '\1F4BB';
+}
+.icon-infinity:before {
+  content: '\221E';
+}
+.icon-light-bulb:before {
+  content: '\1F4A1';
+}
+.icon-credit-card:before {
+  content: '\1F4B3';
+}
+.icon-database:before {
+  content: '\1F4F8';
+}
+.icon-voicemail:before {
+  content: '\2707';
+}
+.icon-clipboard:before {
+  content: '\1F4CB';
+}
+.icon-cart:before {
+  content: '\E73D';
+}
+.icon-box:before {
+  content: '\1F4E6';
+}
+.icon-ticket:before {
+  content: '\1F3AB';
+}
+.icon-rss:before {
+  content: '\E73A';
+}
+.icon-signal:before {
+  content: '\1F4F6';
+}
+.icon-thermometer:before {
+  content: '\1F4FF';
+}
+.icon-water:before {
+  content: '\1F4A6';
+}
+.icon-sweden:before {
+  content: '\F601';
+}
+.icon-line-graph:before {
+  content: '\1F4C8';
+}
+.icon-pie-chart:before {
+  content: '\25F4';
+}
+.icon-bar-graph:before {
+  content: ':before \1F4CA';
+}
+.icon-area-graph:before {
+  content: '\1F53E';
+}
+.icon-lock:before {
+  content: '\1F512';
+}
+.icon-lock-open:before {
+  content: '\1F513';
+}
+.icon-logout:before {
+  content: '\E741';
+}
+.icon-login:before {
+  content: '\E740';
+}
+.icon-check:before {
+  content: '\2713';
+}
+.icon-cross:before {
+  content: '\274C';
+}
+.icon-squared-minus:before {
+  content: '\229F';
+}
+.icon-squared-plus:before {
+  content: '\229E';
+}
+.icon-squared-cross:before {
+  content: '\274E';
+}
+.icon-circled-minus:before {
+  content: '\2296';
+}
+.icon-circled-plus:before {
+  content: '\2295';
+}
+.icon-circled-cross:before {
+  content: '\2716';
+}
+.icon-minus:before {
+  content: '\2796';
+}
+.icon-plus:before {
+  content: '\2795';
+}
+.icon-erase:before {
+  content: '\232B';
+}
+.icon-block:before {
+  content: '\1F6AB';
+}
+.icon-info:before {
+  content: '\2139';
+}
+.icon-circled-info:before {
+  content: '\E705';
+}
+.icon-help:before {
+  content: '\2753';
+}
+.icon-circled-help:before {
+  content: '\E704';
+}
+.icon-warning:before {
+  content: '\26A0';
+}
+.icon-cycle:before {
+  content: '\1F504';
+}
+.icon-cw:before {
+  content: '\27F3';
+}
+.icon-ccw:before {
+  content: '\27F2';
+}
+.icon-shuffle:before {
+  content: '\1F500';
+}
+.icon-back:before {
+  content: '\1F519';
+}
+.icon-level-down:before {
+  content: '\21B3';
+}
+.icon-retweet:before {
+  content: '\E717';
+}
+.icon-loop:before {
+  content: '\1F501';
+}
+.icon-back-in-time:before {
+  content: '\E771';
+}
+.icon-level-up:before {
+  content: '\21B0';
+}
+.icon-switch:before {
+  content: '\21C6';
+}
+.icon-numbered-list:before {
+  content: '\E005';
+}
+.icon-add-to-list:before {
+  content: '\E003';
+}
+.icon-layout:before {
+  content: '\268F';
+}
+.icon-list:before {
+  content: '\2630';
+}
+.icon-text-doc:before {
+  content: '\1F4C4';
+}
+.icon-text-doc-inverted:before {
+  content: '\E731';
+}
+.icon-doc:before {
+  content: '\E730';
+}
+.icon-docs:before {
+  content: '\E736';
+}
+.icon-landscape-doc:before {
+  content: '\E737';
+}
+.icon-picture:before {
+  content: '\1F304';
+}
+.icon-video:before {
+  content: '\1F3AC';
+}
+.icon-music:before {
+  content: '\1F3B5';
+}
+.icon-folder:before {
+  content: '\1F4C1';
+}
+.icon-archive:before {
+  content: '\E800';
+}
+.icon-trash:before {
+  content: '\E729';
+}
+.icon-upload:before {
+  content: '\1F4E4';
+}
+.icon-download:before {
+  content: '\1F4E5';
+}
+.icon-save:before {
+  content: '\1F4BE';
+}
+.icon-install:before {
+  content: '\E778';
+}
+.icon-cloud:before {
+  content: '\2601';
+}
+.icon-upload-cloud:before {
+  content: '\E711';
+}
+.icon-bookmark:before {
+  content: '\1F516';
+}
+.icon-bookmarks:before {
+  content: '\1F4D1';
+}
+.icon-open-book:before {
+  content: '\1F4D6';
+}
+.icon-play:before {
+  content: '\25B6';
+}
+.icon-paus:before {
+  content: '\2016';
+}
+.icon-record:before {
+  content: '\25CF';
+}
+.icon-stop:before {
+  content: '\25A0';
+}
+.icon-ff:before {
+  content: '\23E9';
+}
+.icon-fb:before {
+  content: '\23EA';
+}
+.icon-to-start:before {
+  content: '\23EE';
+}
+.icon-to-end:before {
+  content: '\23ED';
+}
+.icon-resize-full:before {
+  content: '\E744';
+}
+.icon-resize-small:before {
+  content: '\E746';
+}
+.icon-volume:before {
+  content: '\23F7';
+}
+.icon-sound:before {
+  content: '\1F50A';
+}
+.icon-mute:before {
+  content: '\1F507';
+}
+.icon-flow-cascade:before {
+  content: '\1F568';
+}
+.icon-flow-branch:before {
+  content: '\1F569';
+}
+.icon-flow-tree:before {
+  content: '\1F56A';
+}
+.icon-flow-line:before {
+  content: '\1F56B';
+}
+.icon-flow-parallel:before {
+  content: '\1F56C';
+}
+.icon-left-bold:before {
+  content: '\E4AD';
+}
+.icon-down-bold:before {
+  content: '\E4B0';
+}
+.icon-up-bold:before {
+  content: '\E4AF';
+}
+.icon-right-bold:before {
+  content: '\E4AE';
+}
+.icon-left:before {
+  content: '\2B05';
+}
+.icon-down:before {
+  content: '\2B07';
+}
+.icon-up:before {
+  content: '\2B06';
+}
+.icon-right:before {
+  content: '\27A1';
+}
+.icon-circled-left:before {
+  content: '\E759';
+}
+.icon-circled-down:before {
+  content: '\E758';
+}
+.icon-circled-up:before {
+  content: '\E75B';
+}
+.icon-circled-right:before {
+  content: '\E75A';
+}
+.icon-triangle-left:before {
+  content: '\25C2';
+}
+.icon-triangle-down:before {
+  content: '\25BE';
+}
+.icon-triangle-up:before {
+  content: '\25B4';
+}
+.icon-triangle-right:before {
+  content: '\25B8';
+}
+.icon-chevron-left:before {
+  content: '\E75D';
+}
+.icon-chevron-down:before {
+  content: '\E75C';
+}
+.icon-chevron-up:before {
+  content: '\E75F';
+}
+.icon-chevron-right:before {
+  content: '\E75E';
+}
+.icon-chevron-small-left:before {
+  content: '\E761';
+}
+.icon-chevron-small-down:before {
+  content: '\E760';
+}
+.icon-chevron-small-up:before {
+  content: '\E763';
+}
+.icon-chevron-small-right:before {
+  content: '\E762';
+}
+.icon-chevron-thin-left:before {
+  content: '\E765';
+}
+.icon-chevron-thin-down:before {
+  content: '\E764';
+}
+.icon-chevron-thin-up:before {
+  content: '\E767';
+}
+.icon-chevron-thin-right:before {
+  content: '\E766';
+}
+.icon-left-thin:before {
+  content: '\2190';
+}
+.icon-down-thin:before {
+  content: '\2193';
+}
+.icon-up-thin:before {
+  content: '\2191';
+}
+.icon-right-thin:before {
+  content: '\2192';
+}
+.icon-arrow-combo:before {
+  content: '\E74F';
+}
+.icon-three-dots:before {
+  content: '\23F6';
+}
+.icon-two-dots:before {
+  content: '\23F5';
+}
+.icon-dot:before {
+  content: '\23F4';
+}
+.icon-cc:before {
+  content: '\1F545';
+}
+.icon-cc-by:before {
+  content: '\1F546';
+}
+.icon-cc-nc:before {
+  content: '\1F547';
+}
+.icon-cc-nc-eu:before {
+  content: '\1F548';
+}
+.icon-cc-nc-jp:before {
+  content: '\1F549';
+}
+.icon-cc-sa:before {
+  content: '\1F54A';
+}
+.icon-cc-nd:before {
+  content: '\1F54B';
+}
+.icon-cc-pd:before {
+  content: '\1F54C';
+}
+.icon-cc-zero:before {
+  content: '\1F54D';
+}
+.icon-cc-share:before {
+  content: '\1F54E';
+}
+.icon-cc-remix:before {
+  content: '\1F54F';
+}
+.icon-db-logo:before {
+  content: '\1F5F9';
+}
+.icon-db-shape:before {
+  content: '\1F5';
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+li {
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+}
+body {
+  background: #111;
+  color: #111;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  height: 100%;
+  font-family: 'OstrichSansMedium';
+  overflow: hidden;
+}
+body * {
+  -webkit-user-select: none;
+}
+.grid {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  list-style: none;
+  top: 0;
+  bottom: 0;
+  left: -1px;
+  right: 0;
+  display: block;
+}
+.grid .col {
+  position: absolute;
+  padding: 0;
+  bottom: 0;
+  top: 0;
+  width: 25%;
+  border-left: 1px solid #111;
+}
+.grid .col.square {
+  background: #a7ae61;
+}
+.grid .col.square .title,
+.grid .col.square .dial,
+.grid .col.square .vol-slider {
+  background: #92984e;
+}
+.grid .col.square .position {
+  background: #a2a958;
+}
+.grid .col.square .controls,
+.grid .col.square .volume,
+.grid .col.square .value {
+  background: #abb269;
+}
+.grid .col.square .vol-bar-mask {
+  border-color: #abb269 transparent transparent transparent;
+}
+.grid .col.square .mson {
+  color: #92984e;
+}
+.grid .col.sine {
+  background: #7a9fa2;
+  left: 50%;
+}
+.grid .col.sine .title,
+.grid .col.sine .dial,
+.grid .col.sine .vol-slider {
+  background: #638b8e;
+}
+.grid .col.sine .position {
+  background: #72999c;
+}
+.grid .col.sine .controls,
+.grid .col.sine .volume,
+.grid .col.sine .value {
+  background: #81a4a7;
+}
+.grid .col.sine .vol-bar-mask {
+  border-color: #81a4a7 transparent transparent transparent;
+}
+.grid .col.sine .mson {
+  color: #638b8e;
+}
+.grid .col.triangle {
+  background: #d8563f;
+  left: 25%;
+}
+.grid .col.triangle .title,
+.grid .col.triangle .dial,
+.grid .col.triangle .vol-slider {
+  background: #c54028;
+}
+.grid .col.triangle .position {
+  background: #d64c33;
+}
+.grid .col.triangle .controls,
+.grid .col.triangle .volume,
+.grid .col.triangle .value {
+  background: #da5e49;
+}
+.grid .col.triangle .vol-bar-mask {
+  border-color: #da5e49 transparent transparent transparent;
+}
+.grid .col.triangle .mson {
+  color: #c54028;
+}
+.grid .col.info {
+  background: #111;
+  left: 75%;
+}
+.grid .col.end .position {
+  font-family: 'FreebooterScriptRegular';
+  line-height: 1.3em;
+}
+.grid .title {
+  margin: 0;
+  padding: 20px;
+  font-size: 3em;
+  letter-spacing: 0.2em;
+  position: relative;
+  text-align: center;
+}
+.grid .position {
+  font-size: 6em;
+  vertical-align: baseline;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0 0 0;
+  font-family: 'OstrichSansBold';
+  height: 96px;
+  cursor: pointer;
+}
+.grid .visual-spacer {
+  height: 210px;
+  position: relative;
+}
+.grid .visual-spacer p {
+  padding: 40px;
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  text-align: center;
+}
+.info {
+  color: #666;
+}
+.info .timer {
+  font-size: 4em;
+  vertical-align: baseline;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0 0 0;
+  font-family: 'OstrichSansBold';
+  letter-spacing: 0.1em;
+  background: #222;
+  line-height: 96px;
+}
+.info .info-cards {
+  color: #ddd;
+  width: 100%;
+  text-align: center;
+  margin: 25px 0 0 0;
+}
+.info .info-cards li {
+  margin: 20px 0;
+}
+.info .info-cards .name {
+  font-size: 2em;
+  margin: 5px;
+  letter-spacing: 0.2em;
+}
+.info .info-cards .player-type {
+  display: inline-block;
+  margin: -10px;
+  padding: 0;
+}
+.info .info-cards .player-type i {
+  font-size: 6em;
+  color: #444;
+  -webkit-transition: color 1s ease-in;
+  margin-top: -10px;
+}
+.info .info-cards .player-type i.selected {
+  color: #ddd;
+  -webkit-transition: color 1s ease-in;
+}
+.info .info-cards .phrase {
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 0.8em;
+  height: 1em;
+  line-height: 1em;
+  opacity: 0;
+}
+.volume {
+  height: 90px;
+  padding: 10px;
+  position: relative;
+}
+.volume .vol-bar {
+  top: 20px;
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  left: 50%;
+  margin-left: -100px;
+  border-style: solid;
+  border-width: 0 0 40px 200px;
+  border-color: transparent transparent #111 transparent;
+}
+.volume .vol-bar-mask {
+  top: 20px;
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  left: 50%;
+  margin-left: -100px;
+  border-style: solid;
+  z-index: 4;
+  border-width: 40px 200px 0 0;
+}
+.volume .vol-slider {
+  position: absolute;
+  left: 50%;
+  margin-left: 0px;
+  right: 20px;
+  width: 100px;
+  z-index: 2;
+  height: 40px;
+  top: 20px;
+}
+.volume .vol-click {
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  z-index: 5;
+  top: 20px;
+  height: 40px;
+  width: 200px;
+  background: #f00;
+  opacity: 0;
+  cursor: pointer;
+}
+.volume .vol-value {
+  position: absolute;
+  left: 50%;
+  margin-left: 115px;
+  line-height: 40px;
+  font-size: 2em;
+  top: 30px;
+}
+.volume .vol-label {
+  position: absolute;
+  right: 0;
+  left: 0;
+  text-align: center;
+  top: 70px;
+  font-size: 1.3em;
+  letter-spacing: 0.1em;
+}
+.controls {
+  margin: 0;
+  list-style: none;
+  padding: 0 0 20px 0;
+}
+.controls .control {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  width: 33.33%;
+}
+.controls .control .dial-label {
+  text-align: center;
+  margin: 10px 0 0 0;
+  font-size: 1.3em;
+  letter-spacing: 0.1em;
+}
+.controls .dial {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  cursor: pointer;
+  border-radius: 50%;
+  left: 50%;
+  margin: 0 0 0 -25px;
+}
+.controls .dial.over .fill {
+  display: block;
+}
+.controls .dial.over .mask {
+  display: none;
+}
+.controls .dial .circle {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  -webkit-transform-origin: 100% 50%;
+  background: #111;
+}
+.controls .dial .display {
+  border-radius: 100% 0 0 100%/50% 0 0 50%;
+  z-index: 200;
+  -webkit-transform: rotate(90deg);
+}
+.controls .dial .fill {
+  border-radius: 0 100% 100% 0/0 50% 50% 0;
+  left: 50%;
+  z-index: 100;
+  display: none;
+}
+.controls .dial .mask {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  background: inherit;
+  z-index: 300;
+  border-radius: 100% 0 0 100%/50% 0 0 50%;
+}
+.controls .dial .value {
+  position: absolute;
+  background: inherit;
+  width: 30px;
+  height: 30px;
+  z-index: 400;
+  top: 50%;
+  left: 50%;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  margin-left: -15px;
+  margin-top: -15px;
+  font-size: 1.5em;
+}
+.visual-canvas {
+  z-index: 2;
+  top: 200px;
+  right: 0;
+  position: absolute;
+  height: 210px;
+  left: 0;
+}
+.start-dialog {
+  position: absolute;
+  height: 380px;
+  width: 580px;
+  top: 50%;
+  left: 50%;
+  margin-left: -300px;
+  margin-top: -250px;
+  background: #eee;
+  border: 2px solid #111;
+  z-index: 1975;
+  padding: 40px;
+  box-shadow: -10px 10px 0 #111;
+}
+.start-dialog .inst-header {
+  font-size: 4em;
+  font-weight: 400;
+  margin-bottom: 0.5em;
+}
+.start-dialog .inst-body {
+  font-family: 'Helvetica Neue';
+  line-height: 1.5em;
+  font-weight: 200;
+}
