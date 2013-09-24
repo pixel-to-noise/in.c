@@ -11,4 +11,4 @@ module.exports = [
 		'device': '/dev/tty.usbmodem1421',
 		'name': 'ard3'
 	}
-]
+];
