@@ -2,10 +2,6 @@
   "name": "in-c",
   "version": "0.0.2",
   "homepage": "https://github.com/pixel-to-noise/in.c",
-  "authors": [
-    "David Howell <dehowell@gmail.com>"
-  ],
-  "description": "A human-robot symbiotic performance of Terry Riley's \"In C\".",
   "license": "CC Attribution-Share Alike 3.0",
   "private": true,
   "dependencies": {

@@ -153,7 +153,7 @@ var timbre = function() {
         this.channels = channels;
         this.inputs = [];
         for(var i = 0; i < this.channels; i++) {
-            this.inputs.push(context.createGainNode());
+            this.inputs.push(context.createGain());
         }
     };
 
@@ -162,7 +162,7 @@ var timbre = function() {
     };
 
     Mixer.prototype.output = function(node) {
-        this.out = context.createGainNode();
+        this.out = context.createGain();
         this.out.gain.value = 1;
         for(var j = 0; j < this.channels; j++) {
             this.inputs[j].connect(this.out);
@@ -187,7 +187,7 @@ var timbre = function() {
         this.lfo.type = this.lfo.SINE;
         this.lfo.frequency.value = speed;
 
-        this.out = context.createGainNode();
+        this.out = context.createGain();
         this.lfo.connect(this.out);
         this.out.gain.value = gain * 0.1;
     };
@@ -226,7 +226,7 @@ var timbre = function() {
 
     // envelopee
     var ADSR = function(attack, delay, sustain, release, gain) {
-        this.envelope = context.createGainNode();
+        this.envelope = context.createGain();
         this.gain = gain * 0.01;
         this.a = attack * 0.01;
         this.d = delay * 0.01;
@@ -270,13 +270,13 @@ var timbre = function() {
 
         this.filter.frequency.value = init;
         this.filter.frequency.linearRampToValueAtTime(attack, attack);
-        this.filter.frequency.setTargetValueAtTime(sustain, attackEnd, this.envelope.d);
+        this.filter.frequency.setValueAtTime(sustain, attackEnd, this.envelope.d);
     };
 
     Lowpass.prototype.stop = function(time, freq) {
         var initFilter = _filterFrequencyFromCutoff(freq, this.cutoff * (1.0 - this.envelope.gain));
         this.filter.frequency.cancelScheduledValues(time);
-        this.filter.frequency.setTargetValueAtTime(initFilter, time, this.envelope.r);
+        this.filter.frequency.setValueAtTime(initFilter, time, this.envelope.r);
     };
 
     Lowpass.prototype.output = function(node) {
