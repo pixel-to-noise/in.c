@@ -1,0 +1,18 @@
+{
+	"name": "paper",
+	"version": "0.8.3",
+	"main": "./src/node/index.js",
+	"engines": { "node": ">= 0.4.0" },
+	"dependencies": {
+		"canvas": ">= 0.7.0",
+		"jsdom": ">= 0.6.0"
+	},
+	"description": "The Swiss Army Knife of Vector Graphics Scripting",
+	"contributors": [
+		"Jürg Lehni <juerg@lehni.org> (http://lehni.org)",
+		"Jonathan Puckey <jonathan@studiomoniker.com> (http://studiomoniker.com)"
+	],
+	"homepage": "http://paperjs.org",
+	"repository": "git://github.com/paperjs/paper.js",
+	"keywords": ["vector", "graphic", "graphics", "bezier", "curve", "curves", "canvas", "svg", "paper.js"]
+}

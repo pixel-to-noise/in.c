@@ -1,0 +1,14 @@
+{
+  "name": "paper",
+  "homepage": "https://github.com/paperjs/paper.js",
+  "version": "0.8.3",
+  "_release": "0.8.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.8.3",
+    "commit": "1e9b3a630cd4973c66599c38486b80860324ac40"
+  },
+  "_source": "git://github.com/paperjs/paper.js.git",
+  "_target": "~0.8.0",
+  "_originalSource": "paper"
+}

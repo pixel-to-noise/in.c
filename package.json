@@ -6,14 +6,15 @@
     "start": "node app"
   },
   "dependencies": {
-    "express": "3.0.6",
-    "jade": "*",
-    "firmata": "*",
-    "underscore": "*",
     "async": "*",
-    "socket.io": "*", 
+    "express": "3.0.6",
     "express": "3.x",
-	"mocha": "*",
-	"should": "*"
+    "firmata": "*",
+    "jade": "*",
+    "mocha": "*",
+    "should": "*",
+    "socket.io": "*", 
+    "stylus": "*",
+    "underscore": "*"
   }
 }
