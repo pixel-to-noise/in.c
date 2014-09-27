@@ -2,7 +2,7 @@ var environment = process.argv[2];
 
 var express = require('express'),
     routes = require('./routes'),
-    arduino = require('./routes/arduino.js'),
+    // arduino = require('./routes/arduino.js'),
     http = require('http'),
     path = require('path');
 
@@ -40,6 +40,6 @@ if (environment) {
     arduino.init(arduinos);
 }
 
-io.sockets.on('connection', function(socket) {
-    arduino.setSocket(socket);
-});
+// io.sockets.on('connection', function(socket) {
+//     arduino.setSocket(socket);
+// });
