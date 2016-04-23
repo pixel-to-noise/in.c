@@ -219,6 +219,4 @@ $(function() {
     $triangle = $('.triangle.col');
 
     ui.initializeUI();
-
-    sockets.initializeSocket();
 });

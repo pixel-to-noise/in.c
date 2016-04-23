@@ -8,7 +8,7 @@ block content
                 span.name Buzz
             div.position
                 div ---
-            div.visual-spacer 
+            div.visual-spacer
                 p
             div.volume
                 div.vol-click
@@ -17,7 +17,7 @@ block content
                 div.vol-slider
                 div.vol-value 50
                 div.vol-label volume
-            ul.controls    
+            ul.controls
                 li.control
                     div.cutoff
                     div.dial-label Dampening
@@ -41,7 +41,7 @@ block content
                 div.vol-slider
                 div.vol-value 50
                 div.vol-label Volume
-            ul.controls  
+            ul.controls
                 li.control
                     div.cutoff
                     div.dial-label Dampening
@@ -53,11 +53,11 @@ block content
                     div.dial-label vibrato
         li(class='col sine', data-index='2')
             div.title
-                span.name Drone 
+                span.name Drone
             div.position
                 div ---
             div.visual-spacer
-                p 
+                p
             div.volume
                 div.vol-click
                 div.vol-bar
@@ -65,7 +65,7 @@ block content
                 div.vol-slider
                 div.vol-value 50
                 div.vol-label Volume
-            ul.controls  
+            ul.controls
                 li.control
                     div.cutoff
                     div.dial-label Dampening
@@ -74,10 +74,10 @@ block content
                     div.dial-label Resonance
                 li.control
                     div.vibrato
-                    div.dial-label vibrato    
+                    div.dial-label vibrato
         li.col.info
             div.title
-                span.name in.c 
+                span.name in.c
             div.timer 00:00
             ul.info-cards
                 li.square
@@ -102,22 +102,20 @@ block content
                             i.icon-monitor.robot.selected
 
                     div.phrase
-                            
-    div.visual-canvas 
+
+    div.visual-canvas
         canvas
 
-    div.start-dialog 
-        h4.inst-header Press any instrument's button to begin a performance of 
-            strong In C 
-        p.inst-body 
-      
+    div.start-dialog
+        h4.inst-header Press any instrument's button to begin a performance of
+            strong In C
+        p.inst-body
+
 block scripts
-    script(src='/socket.io/socket.io.js')
     script(src='/javascripts/libs/jquery-mousewheel/jquery.mousewheel.min.js')
     script(src='/javascripts/libs/paper/dist/paper.js')
     script(src='/javascripts/libs/jquery.dial.js')
-    script(src='/javascripts/inc.js') 
-    script(src='/javascripts/sockets.js')
+    script(src='/javascripts/inc.js')
     script(src='/javascripts/timbre.js')
     script(src='/javascripts/temper.js')
     script(src='/javascripts/trace.js')
