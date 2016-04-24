@@ -73,7 +73,7 @@ var instrumentSettings = {
     'square': {
         'volume': 80,
         'oscil1': {
-            'waveform': 'SQUARE',
+            'waveform': 'square',
             'octave': 16,
             'detune': 0,
             'vibratoAmount': 10,
@@ -81,7 +81,7 @@ var instrumentSettings = {
             'gain': 90
         },
         'oscil2': {
-            'waveform': 'SQUARE',
+            'waveform': 'square',
             'octave': 16,
             'detune': 10,
             'vibratoAmount': 15,
@@ -119,7 +119,7 @@ var instrumentSettings = {
     'sine': {
         'volume': 72,
         'oscil1': {
-            'waveform': 'SINE',
+            'waveform': 'sine',
             'octave': 4,
             'detune': 0,
             'vibratoAmount': 10,
@@ -127,7 +127,7 @@ var instrumentSettings = {
             'gain': 90
         },
         'oscil2': {
-            'waveform': 'SINE',
+            'waveform': 'sine',
             'octave': 8,
             'detune': 20,
             'vibratoAmount': 10,
@@ -165,7 +165,7 @@ var instrumentSettings = {
     'triangle': {
         'volume': 65,
         'oscil1': {
-            'waveform': 'TRIANGLE',
+            'waveform': 'triangle',
             'octave': 2,
             'detune': 0,
             'vibratoAmount': 0,
@@ -173,7 +173,7 @@ var instrumentSettings = {
             'gain': 90
         },
         'oscil2': {
-            'waveform': 'TRIANGLE',
+            'waveform': 'triangle',
             'octave': 4,
             'detune': 0,
             'vibratoAmount': 0,
