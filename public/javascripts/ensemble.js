@@ -205,7 +205,7 @@ var ensemble = function() {
 
     var begin = function() {
         // Initialize Ensemble Audio Output
-        context = new webkitAudioContext();
+        context = new AudioContext();
 
         mixer = new timbre.Mixer(4);
         mixer.setGain(0, 30);
@@ -213,7 +213,7 @@ var ensemble = function() {
         mixer.setGain(2, instrumentSettings.sine.volume);
         mixer.setGain(3, instrumentSettings.triangle.volume);
 
-        // for panning 
+        // for panning
         context.listener.setPosition(0, 0, 0);
         var compressor = context.createDynamicsCompressor();
         mixer.output(compressor);

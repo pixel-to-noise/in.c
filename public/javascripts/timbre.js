@@ -122,7 +122,7 @@ var timbre = function() {
     // Voltage Controller Oscillator
     var VCO = function(type, octave, detune, tremoloAmount, tremoloSpeed) {
         this.osc = context.createOscillator();
-        this.osc.type = this.osc[type];
+        this.osc.type = type;
         this.osc.detune.value = detune || 0;
         this.octave = octave / 8;
         this.tremolo = new LFO(tremoloAmount, tremoloSpeed);
@@ -184,7 +184,7 @@ var timbre = function() {
     // Low Frequency Oscillator
     var LFO = function(gain, speed) {
         this.lfo = context.createOscillator();
-        this.lfo.type = this.lfo.SINE;
+        this.lfo.type = 'sine';
         this.lfo.frequency.value = speed;
 
         this.out = context.createGain();
@@ -254,7 +254,7 @@ var timbre = function() {
     // Lowpass Biquad Filter
     var Lowpass = function(Q, cutoff, envelope) {
         this.filter = context.createBiquadFilter();
-        this.filter.type = this.filter.LOWPASS;
+        this.filter.type = 'lowpass';
         this.filter.Q.value = Q * 0.1;
         this.cutoff = cutoff * 0.01;
         this.envelope = envelope;
